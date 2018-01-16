@@ -1,0 +1,217 @@
+/* Styling for body */
+body {
+  background-image: url(../images/Pizza_9.jpg);
+  background-repeat: no-repeat;
+  background-color: #ff5;
+  width: 100%;
+}
+
+
+/* Styling for header */
+h1{
+  font-family: yantramanav, sans-serif;
+  font-size: 400%;
+  text-transform: uppercase;
+  color: #ff5;
+  text-shadow:-2px 2px 6px #f56d0a;
+  text-decoration: underline overline;
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+header {
+  margin: 20px auto;
+}
+
+
+/* Styling for section */
+
+
+section {
+
+}
+
+.frame1 {
+
+}
+
+#BigMenu {
+	margin: 0% auto;
+	width: 600px;
+	border-radius: .5em;
+	padding: 1px 0px;
+}
+
+#MenuForm {
+	margin: 0% auto;
+	width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+	border-radius: .5em;
+  font-family: Alegreya, serif;
+}
+
+.menu {
+  height: 220px;
+  width: 180px;
+  border: 5px solid #ff5;
+  box-shadow: -5px 5px 20px #f56d0a;
+  padding: 0 0 10px 0;
+  margin: 1%;
+  text-align: left;
+}
+
+.menu:nth-child(even) {
+  background-color: rgba(244, 245, 247, 0.6);
+  border-radius: .5em;
+}
+
+.menu:nth-child(odd) {
+	background-color: rgba(234, 235, 237, 0.6);
+	border-radius: .5em;
+}
+.menu>H3 {
+	color: #fff;
+  text-align: center;
+  font-family: Karla, sans-serif;
+  letter-spacing: 1.5px;
+	padding: 3%;
+	margin: 0 auto;
+	background-color: rgba(245, 109, 10, .8);
+	border-radius: .5;
+	text-shadow: 2px 2px 2px #000;
+}
+
+.menu>p {
+  margin: 0
+}
+
+/* Placing the order */
+.controls {
+	display: flex;
+  flex-direction: columns;
+  justify-content: space-between;
+	margin: 0 auto;
+	width: 500px;
+}
+
+.controls>.button {
+	flex: 1 150px;
+}
+
+.controls img {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: -40px;
+  float: left;
+}
+
+.button {
+	cursor: pointer;
+	color: #fff;
+  text-align: center;
+	width: 100%;
+	display: block;
+	text-decoration: none;
+	border-radius: .5em;
+	margin: 5% auto 5% 2%;
+	padding: 0px 0px 0px 0px;
+  font: 1.2em;
+  font-family: Karla, sans-serif;
+	background-color: rgba(245, 109, 10, .90);
+	box-shadow: 0 0 0 2px rgba(255,255,85, .8);
+	transition-property: transform background, box-shadow, color;
+	transition-duration: .3s, .5s, .2s;
+	transition-timing-function: eas-in-out;
+}
+
+.button:hover {
+	font: 1.2em;
+  font-family: Karla, sans-serif;
+	font-weight: 600;
+	color: #f56d0a;
+	background-color: rgba(255,255,85, .8);
+	box-shadow: 0 0 0 2px rgba(245, 109, 10, .90);
+}
+
+.button p {
+  font-weight: 600;
+}
+
+/* Cart Styles */
+#cart {
+  opacity: 0;
+  margin: 15px auto;
+  width: 550px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  background-color: rgba(244, 245, 247, 0.6);
+  border: 2px solid #ff5;
+  box-shadow: -5px 5px 20px rgba(245, 109, 10, .90);
+  border-radius: .5em;
+}
+
+#title1 {
+	color: #fff;
+  font-family: Karla, sans-serif;
+	flex: 1 250px;
+	height: 50px;
+	width: 250px;
+	padding: 0 0 0px 10px;
+	background-color: rgba(245, 109, 10, .90);
+	border-radius: .5em 0 0 0;
+	text-shadow: 2px 2px 2px #000;
+}
+
+#title2 {
+	color: #fff;
+  font-family: Karla, sans-serif;
+	flex: 1 250px;
+	height: 50px;
+	width: 250px;
+	padding: 0 0 0px 10px;
+	background-color: rgba(245, 109, 10, .90);
+	border-radius: 0 .5em 0 0;
+	text-shadow: 2px 2px 2px #000;
+}
+
+#showText1 {
+	font-size: 1.1;
+  font-family: Alegreya, serif;
+	flex: 1 250px;
+	padding: 1px 0 10px 10px;
+	width: 250px;
+	border-radius: 0 0 0 0;
+}
+
+#showText2 {
+	font-size: 1.1em;
+  font-family: Alegreya, serif;
+	flex: 1 250px;
+	padding: 1px 0 10px 10px;
+	width: 250px;
+	border-radius: 0 0 0 0;
+}
+
+#totalPrice1 {
+  font-family: Alegreya, serif;
+	flex: 1 250px;
+	padding: 0 0 10px 10px;
+	width: 250px;
+	border-radius: 0 0 0 0;
+}
+
+#totalPrice2 {
+  font-family: Alegreya, serif;
+	flex: 1 250px;
+	font-weight: 600;
+	padding: 20px 0 10px 10px;
+	width: 250px;
+	border-radius: 0 0 0 0;
+}
