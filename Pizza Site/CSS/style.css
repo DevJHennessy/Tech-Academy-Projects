@@ -182,7 +182,7 @@ section {
 }
 
 #showText1 {
-	font-size: 1.1;
+	font-size: 18px;
   font-family: Alegreya, serif;
 	flex: 1 250px;
 	padding: 1px 0 10px 10px;
@@ -191,7 +191,7 @@ section {
 }
 
 #showText2 {
-	font-size: 1.1em;
+	font-size: 18px;
   font-family: Alegreya, serif;
 	flex: 1 250px;
 	padding: 1px 0 10px 10px;
@@ -211,7 +211,7 @@ section {
   font-family: Alegreya, serif;
 	flex: 1 250px;
 	font-weight: 600;
-	padding: 20px 0 10px 10px;
+	padding: 22px 0 10px 10px;
 	width: 250px;
 	border-radius: 0 0 0 0;
 }
