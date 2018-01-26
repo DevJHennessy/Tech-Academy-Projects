@@ -16,6 +16,7 @@ namespace Challenge_4_EpicSpies
                 // Setting the dates on the calendar
                 previousCalendar.SelectedDate = DateTime.Now.Date;
                 startCalendar.SelectedDate = DateTime.Now.Date.AddDays(14);
+                startCalendar.VisibleDate = DateTime.Now.Date.AddDays(14);
                 endCalendar.SelectedDate = DateTime.Now.Date.AddDays(21);
                 endCalendar.VisibleDate = DateTime.Now.Date.AddDays(21);
             }
