@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="CS_ASP_047.Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="CS_ASP_048.Default" %>
 
 <!DOCTYPE html>
 
@@ -12,5 +12,5 @@
         <asp:Label ID="resultLabel" runat="server"></asp:Label>
     </div>
     </form>
-</body>S
+</body>
 </html>

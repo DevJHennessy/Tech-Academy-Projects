@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CS_ASP_047 {
+namespace CS_ASP_048 {
     
     
     public partial class Default {
