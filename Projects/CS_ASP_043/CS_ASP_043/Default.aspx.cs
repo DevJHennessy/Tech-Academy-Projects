@@ -26,7 +26,7 @@ namespace CS_ASP_043
             //Make: Undefined - Model: Undefined - Year: 1980 - Color: Undefined
             resultLabel.Text = myCar.FormatDetailsForDisplay();
 
-            DateTime d = new DateTime()
+            //DateTime d = new DateTime()
         }
     }
 }
