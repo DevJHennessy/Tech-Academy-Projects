@@ -12,6 +12,9 @@ namespace CS_ASP_048
         public int Year { get; set; }
         public string Color { get; set; }
 
+        //You don't have to make constructors when using object and collection
+        //initializers.
+        /*
         public Car()
         {
             this.Make = "Undefined";
@@ -19,6 +22,7 @@ namespace CS_ASP_048
             this.Year = 1980;
             this.Color = "Undefined";
         }
+        */
 
         //Overloaded constructor
         /*
