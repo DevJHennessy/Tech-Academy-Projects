@@ -108,12 +108,12 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <EntityDeploy Include="ACMEEntities.edmx">
+    <EntityDeploy Include="ACMEEntitiesRenamed.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>ACMEEntities.Designer.cs</LastGenOutput>
+      <LastGenOutput>ACMEEntitiesRenamed.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="ACMEEntities.edmx.diagram">
-      <DependentUpon>ACMEEntities.edmx</DependentUpon>
+    <Content Include="ACMEEntitiesRenamed.edmx.diagram">
+      <DependentUpon>ACMEEntitiesRenamed.edmx</DependentUpon>
     </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -125,12 +125,12 @@
   <ItemGroup>
     <Content Include="ACMEEntities.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>ACMEEntities.edmx</DependentUpon>
+      <DependentUpon>ACMEEntitiesRenamed.edmx</DependentUpon>
       <LastGenOutput>ACMEEntities.Context.cs</LastGenOutput>
     </Content>
     <Content Include="ACMEEntities.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>ACMEEntities.edmx</DependentUpon>
+      <DependentUpon>ACMEEntitiesRenamed.edmx</DependentUpon>
       <LastGenOutput>ACMEEntities.cs</LastGenOutput>
     </Content>
     <Content Include="App_Data\ACME.mdf" />
@@ -154,10 +154,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ACMEEntities.tt</DependentUpon>
     </Compile>
-    <Compile Include="ACMEEntities.Designer.cs">
+    <Compile Include="ACMEEntitiesRenamed.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ACMEEntities.edmx</DependentUpon>
+      <DependentUpon>ACMEEntitiesRenamed.edmx</DependentUpon>
     </Compile>
     <Compile Include="Customer.cs">
       <DependentUpon>ACMEEntities.tt</DependentUpon>
@@ -179,6 +179,16 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LocalDbExample.Domain\LocalDbExample.Domain.csproj">
+      <Project>{99614da6-8daf-4bbb-a002-65c8df990bd4}</Project>
+      <Name>LocalDbExample.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LocalDbExample.DTO\LocalDbExample.DTO.csproj">
+      <Project>{8b3bd0ea-60bd-4253-bd48-0a4329a92f8b}</Project>
+      <Name>LocalDbExample.DTO</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
