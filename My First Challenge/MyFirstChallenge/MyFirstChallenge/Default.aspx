@@ -11,7 +11,7 @@
     <div>
     
         How old are you?&nbsp;
-        <asp:TextBox ID="ageBox" runat="server" OnTextChanged="ageBox_TextChanged"></asp:TextBox>
+        <asp:TextBox ID="ageBox" runat="server"></asp:TextBox>
         <br />
         <br />
         How much money do you have in your pocket?&nbsp; <asp:TextBox ID="moneyBox" runat="server"></asp:TextBox>
