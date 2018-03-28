@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CS_14_Inheritance
+namespace CS_15_Polymorphism
 {
     class Program
     {
@@ -12,12 +12,6 @@ namespace CS_14_Inheritance
         {
             ////The TwentyOneGame class is calling from the superclass Game.
             //TwentyOneGame game = new TwentyOneGame();
-            //game.Players = new List<string>() { "Bob", "Louise", "Linda", "Gene", "Tina" };
-            //game.ListPlayers();
-            //Console.ReadLine();
-
-            //Using the virtual method from the Game class with a TwentyOneGame object:
-            //Game game = new TwentyOneGame();
             //game.Players = new List<string>() { "Bob", "Louise", "Linda", "Gene", "Tina" };
             //game.ListPlayers();
             //Console.ReadLine();
@@ -48,7 +42,6 @@ namespace CS_14_Inheritance
             //Polymorphism:
             //It's the ability of a class to change into its inheriting class, and it gave
             //certain advantages.
-
         }
     }
 }

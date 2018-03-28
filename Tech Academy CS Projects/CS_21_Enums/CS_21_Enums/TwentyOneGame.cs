@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CS_14_Inheritance
+namespace CS_21_Enums
 {
     public class TwentyOneGame : Game, IWalkAway
     {

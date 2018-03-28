@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CS_14_Inheritance
+namespace CS_15_Polymorphism
 {
-    public class Card
+    class Card
     {
         public string Suit { get; set; }
         public string Rank { get; set; }

@@ -4,22 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CS_14_Inheritance
+namespace CS_15_Polymorphism
 {
-    public abstract class Game
+    public class Game
     {
         public List<string> Players { get; set; }
         public string Name { get; set; }
         public string Dealer { get; set; }
 
-        public virtual void ListPlayers()
+        public void ListPlayers()
         {
             foreach (var player in Players)
             {
                 Console.WriteLine(player);
             }
         }
-
-        public abstract void Play();
     }
 }
