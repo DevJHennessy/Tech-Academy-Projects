@@ -22,6 +22,7 @@ namespace CS_24_TwentyOneGame
             //Logging:
             using (StreamWriter file = new StreamWriter(@"C:\Users\Student\Logs\log.txt", true))
             {
+                file.WriteLine(DateTime.Now);
                 file.WriteLine(card); 
             } //Once the code hits here the Garbage Collector gets rid of the above code.
             //That's what the using statement does. 
