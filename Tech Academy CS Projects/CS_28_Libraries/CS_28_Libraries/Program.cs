@@ -13,6 +13,7 @@ namespace CS_28_Libraries
     {
         static void Main(string[] args)
         {
+            Player newPlayer = new Player("John");
             Console.WriteLine("Welcome to the Grand Hotel and Casino. Let's start by telling me your name.");
             string playerName = Console.ReadLine();
             Console.WriteLine("And how much money did you bring today?");

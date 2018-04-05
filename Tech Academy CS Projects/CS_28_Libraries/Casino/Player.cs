@@ -16,6 +16,12 @@ namespace Casino
         public bool isActivelyPlaying { get; set; }
         public bool Stay { get; set; }
 
+        public Player(string name) : this(name, 100)
+        {
+            //You don't need any implementation here because it inherits from the other 
+            //Player constructor.
+        }
+
         public Player(string name, int beginningBalance)
         {
             Hand = new List<Card>();
