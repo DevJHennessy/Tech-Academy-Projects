@@ -15,7 +15,9 @@ namespace Casino
         public string Name { get; set; }
         public bool isActivelyPlaying { get; set; }
         public bool Stay { get; set; }
+        public Guid Id { get; set; }
 
+        //Overload Player Constructor:
         public Player(string name) : this(name, 100)
         {
             //You don't need any implementation here because it inherits from the other 
