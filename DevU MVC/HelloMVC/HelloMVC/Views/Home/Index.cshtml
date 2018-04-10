@@ -11,5 +11,31 @@
     <p>@car.Id - @car.Make - @car.Model</p>
 }
 
+@{ 
+    var name = "John";
+    var day = DateTime.Now.DayOfWeek.ToString();
 
-      
+    <p>Howdy, @name! Today is @day.</p>
+}
+
+@helper pluralize(int amount, string singular, string plural)
+{
+    @(amount == 1 ? singular : plural)
+}
+@{
+    var crisesCount = 1;
+    <p>Mr. President, there @pluralize(crisesCount, "is one crises", "are " +crisesCount + " crises") you must deal with immediately.</p>
+}
+
+<p>
+    @{ 
+        var test = false;
+        if (!test)
+        {
+            @: Display some text!
+            <span>Display some more text!</span>
+        }
+    }
+</p>
+
+ 
