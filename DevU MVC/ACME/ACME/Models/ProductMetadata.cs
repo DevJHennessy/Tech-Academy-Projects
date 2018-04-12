@@ -15,6 +15,8 @@ namespace ACME.Models
             [Key]
             public System.Guid ProductId { get; set; }
 
+            //Below is a custom message for the Name field as a data annotation:
+            //[Required(ErrorMessage = "This is a custom message.")]
             [Required]
             [Display(Name="Product Name")]
             [StringLength(10)]
@@ -22,6 +24,9 @@ namespace ACME.Models
 
             [Required]
             [RegularExpression(@"^\$?\d+(\.(\d{2}))?$")]
+            //[Range(0.01, 1000.0)] //This does the same as the if statement in the 
+            //ProductsController.
+
             public decimal Price { get; set; }
         }
     }
