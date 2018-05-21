@@ -13,7 +13,7 @@ body {
 	line-height: 1.42857143;
 	color: #333;
 	background-color: #fff;
-	
+
 }
 
 footer,
@@ -345,7 +345,7 @@ section {
 }
 
 @media all and (max-width:381px) and (min-width:200px) {
-    .head-main { 
+    .head-main {
         font-size: 24px ;
     }
 }
@@ -367,4 +367,3 @@ section {
     width: 1170px;
   }
 }
-
