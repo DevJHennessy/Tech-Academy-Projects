@@ -2,8 +2,7 @@
 body {
   background-image: url(../Images/Pizza_9.jpg);
   background-repeat: no-repeat;
-  background-color: #ff5;
-  width: 100%;
+  background-size: cover;
 }
 
 
